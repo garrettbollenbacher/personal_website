@@ -3,6 +3,7 @@ import heroImg from "../../assets/hero-img.png";
 import themeIcon from "../../assets/sun.svg";
 import githubIcon from "../../assets/github-light.svg";
 import linkedinIcon from "../../assets/linkedin-light.svg";
+import resume from "../../assets/cv.pdf";
 
 function Hero() {
   return (
@@ -32,6 +33,9 @@ function Hero() {
           </a>
         </span>
         <p>Pursuing a career at the intersection of technology and business</p>
+        <a href={resume} download>
+          <button className="hover">Resume</button>
+        </a>
       </div>
     </section>
   );
