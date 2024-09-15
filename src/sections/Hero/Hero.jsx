@@ -1,13 +1,20 @@
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/hero-img.png";
-import themeIcon from "../../assets/sun.svg";
-import githubIcon from "../../assets/github-light.svg";
-import linkedinIcon from "../../assets/linkedin-light.svg";
+import githubLight from "../../assets/github-light.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import githubDark from "../../assets/github-dark.svg";
+import linkedinDark from "../../assets/linkedin-dark.svg";
 import resume from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
+
+  const themeIcon = theme === "dark" ? moon : sun;
+  const githubIcon = theme === "dark" ? githubDark : githubLight;
+  const linkedinIcon = theme === "dark" ? linkedinDark : linkedinLight;
 
   return (
     <section id="hero" className={styles.container}>

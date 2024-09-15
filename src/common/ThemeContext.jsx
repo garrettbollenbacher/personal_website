@@ -5,7 +5,7 @@ const ThemeContext = createContext();
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-  const { theme, setTheme } = useState(
+  const [theme, setTheme] = useState(
     () => localStorage.getItem("theme") || "dark"
   );
 
@@ -15,7 +15,6 @@ export const ThemeProvider = ({ children }) => {
   }, [theme]);
 
   const toggleTheme = () => {
-    console.log("toggle");
     setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
   };
 
