@@ -43,7 +43,9 @@ function Hero() {
             <img src={linkedinIcon} alt="LinkedIn Icon" />
           </a>
         </span>
-        <p>Pursuing a career at the intersection of technology and business</p>
+        <p className={styles.description}>
+          Pursuing a career at the intersection of technology and business
+        </p>
         <a href={resume} download>
           <button className="hover">Resume</button>
         </a>
