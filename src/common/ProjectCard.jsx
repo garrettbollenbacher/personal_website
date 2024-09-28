@@ -1,11 +1,11 @@
 import React from "react";
 
-function ProjectCard() {
+function ProjectCard({ src, link, h3, p }) {
   return (
-    <a href="https://github.com/garrettbollenbacher/churchmerch">
-      <img className="hover" src={viberr} alt="churchmerch logo" />
-      <h3>churchmerch.com</h3>
-      <p>E-Commerce Site</p>
+    <a href={link}>
+      <img className="hover" src={src} alt={`${h3} logo`} />
+      <h3>{h3}</h3>
+      <p>{p}</p>
     </a>
   );
 }
