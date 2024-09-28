@@ -1,7 +1,7 @@
 import "./App.css";
 import Hero from "./sections/Hero/Hero";
 import Projects from "./sections/Projects/Projects";
-import Skills from "./sections/Skills/Skills";
+import Skills from "./sections/Skills/skills";
 
 function App() {
   return (
