@@ -1,9 +1,8 @@
 import React from "react";
 
-function SkillList({ src, skill }) {
+function SkillList({ skill }) {
   return (
     <span>
-      <img src={src} alt="Checkmark Icon" />
       <p>{skill}</p>
     </span>
   );
