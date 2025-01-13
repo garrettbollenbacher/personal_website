@@ -1,0 +1,25 @@
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--btn-color);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.skillItem:hover {
+  transform: translateY(-2px);
+}
+
+.skillItem img {
+  width: 16px;
+  height: 16px;
+}
+
+.skillItem p {
+  margin: 0;
+  font-weight: 500;
+  color: var(--btn-text-color);
+}
