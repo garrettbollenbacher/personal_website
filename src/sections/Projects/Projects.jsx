@@ -1,3 +1,4 @@
+
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.png";
@@ -11,8 +12,20 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link="https://github.com/garrettbollenbacher/churchmerch"
-          h3="churchmerch.com"
-          p="E-Commerce Site"
+          h3="Church Merch"
+          p="E-Commerce Platform"
+        />
+        <ProjectCard
+          src={viberr}
+          link="https://pointeproperties.com"
+          h3="Pointe Properties"
+          p="Real Estate Website"
+        />
+        <ProjectCard
+          src={viberr}
+          link="https://edify.com"
+          h3="Edify"
+          p="Educational Platform"
         />
       </div>
     </section>
