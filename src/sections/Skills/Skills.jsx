@@ -22,7 +22,7 @@ function Skills() {
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList skill="AWS Solutions Architecture" />
+        <SkillList skill="AWS Solutions Architecture Associate Certified" />
       </div>
     </section>
   );
