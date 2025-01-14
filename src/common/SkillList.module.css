@@ -3,9 +3,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  background-color: var(--btn-color);
   padding: 8px 16px;
-  border-radius: 8px;
   transition: transform 0.2s ease;
 }
 
@@ -22,5 +20,5 @@
 .skillItem p {
   margin: 0;
   font-weight: 500;
-  color: var(--btn-text-color);
+  color: var(--text-color);
 }
