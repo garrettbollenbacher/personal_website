@@ -1,13 +1,22 @@
 import React from "react";
+import PropTypes from "prop-types";
+import styles from "./ProjectCard.module.css";
 
-function ProjectCard({ src, link, h3, p }) {
+function ProjectCard({ icon, link, h3, p }) {
   return (
-    <a href={link}>
-      <img className="hover" src={src} alt={`${h3} logo`} />
+    <div className={styles.card}>
+      {icon && <div className={styles.icon}>{icon}</div>}
       <h3>{h3}</h3>
       <p>{p}</p>
-    </a>
+    </div>
   );
 }
+
+ProjectCard.propTypes = {
+  icon: PropTypes.element,
+  link: PropTypes.string.isRequired,
+  h3: PropTypes.string.isRequired,
+  p: PropTypes.string.isRequired,
+};
 
 export default ProjectCard;

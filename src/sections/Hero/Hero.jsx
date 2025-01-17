@@ -50,18 +50,20 @@ function Hero() {
           <button className="hover">Resume</button>
         </a>
       </div>
-      <svg 
-        className={styles.scrollIndicator} 
-        onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-        viewBox="0 0 24 24" 
-        fill="none" 
-        stroke="currentColor" 
-        strokeWidth="2" 
-        strokeLinecap="round" 
+      <svg
+        className={styles.scrollIndicator}
+        onClick={() =>
+          window.scrollTo({ top: window.innerHeight, behavior: "smooth" })
+        }
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
         strokeLinejoin="round"
       >
-        <path d="M7 13l5 5 5-5"/>
-        <path d="M7 6l5 5 5-5"/>
+        <path d="M7 13l5 5 5-5" />
+        <path d="M7 6l5 5 5-5" />
       </svg>
     </section>
   );

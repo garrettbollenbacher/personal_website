@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
 
   img {
     max-width: 250px;
@@ -22,10 +23,29 @@
   }
 
   .projectContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    padding: 20px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+}
+
+.sectionTitle {
+  text-align: center; /* Center the title */
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-bottom: 10px;
+  color: var(
+    --background-color
+  ); /* Set the icon color to the background color */
+  border: 1px solid var(--text-color); /* Add a thin border with the text color */
+  border-radius: 50%; /* Optional: make the border rounded */
+  padding: 5px; /* Optional: add some padding to make the border more visible */
+}
+
+.crossIcon {
+  margin-bottom: 10px;
+  color: var(--text-color);
 }
