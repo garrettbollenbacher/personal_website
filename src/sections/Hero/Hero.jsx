@@ -5,6 +5,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import resume from "../../assets/cv.pdf";
+import garrett_resume from "../../assets/Garrett Bollenbacher '25 Resume.docx.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
@@ -46,7 +47,7 @@ function Hero() {
         <p className={styles.description}>
           Pursuing a career at the intersection of technology and business
         </p>
-        <a href={resume} download>
+        <a href={garrett_resume} download>
           <button className="hover">Resume</button>
         </a>
       </div>
