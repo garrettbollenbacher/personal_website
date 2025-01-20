@@ -58,10 +58,17 @@ function Skills() {
         ))}
       </div>
       <div className={styles.skillList}>
-        <SkillList
-          skill="AWS Certified Solutions Architect - Associate"
-          // icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
-        />
+        <a 
+          href="https://www.credly.com/badges/a017c44e-2125-4b2b-a8a7-d17e318ef009/public_url" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className={styles.certLink}
+        >
+          <SkillList
+            skill="AWS Certified Solutions Architect - Associate"
+            // icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
+          />
+        </a>
       </div>
     </section>
   );

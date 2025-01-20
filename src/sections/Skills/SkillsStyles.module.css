@@ -41,4 +41,9 @@ h1 {
   .skillList p {
     font-size: 20px;
   }
+
+  .certLink {
+    text-decoration: none;
+    color: inherit;
+  }
 }
