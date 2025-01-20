@@ -32,14 +32,6 @@ h1 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-hr {
-  width: 100px;
-  height: 1px;
-  border: none;
-  background-color: var(--text-color);
-  margin: 30px auto;
-}
-
 @media (min-width: 800px) {
   .skillList {
     max-width: fit-content;
@@ -48,9 +40,5 @@ hr {
 
   .skillList p {
     font-size: 20px;
-  }
-
-  hr {
-    width: 300px;
   }
 }

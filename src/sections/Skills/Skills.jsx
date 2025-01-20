@@ -52,13 +52,11 @@ function Skills() {
           <SkillList key={skill.name} skill={skill.name} icon={skill.icon} />
         ))}
       </div>
-      <hr />
       <div className={styles.skillList}>
         {backendSkills.map((skill) => (
           <SkillList key={skill.name} skill={skill.name} icon={skill.icon} />
         ))}
       </div>
-      <hr />
       <div className={styles.skillList}>
         <SkillList
           skill="AWS Solutions Architecture Associate Certified"
