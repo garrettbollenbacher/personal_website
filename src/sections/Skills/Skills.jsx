@@ -59,7 +59,7 @@ function Skills() {
       </div>
       <div className={styles.skillList}>
         <SkillList
-          skill="AWS Solutions Architecture Associate Certified"
+          skill="AWS Certified Solutions Architect - Associate"
           // icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"
         />
       </div>

@@ -11,7 +11,7 @@ function Projects() {
         <ProjectCard
           icon={
             <a
-              href="https://github.com/garrettbollenbacher/churchmerch"
+              href="https://churchmerch.replit.app"
               target="_blank"
               rel="noopener noreferrer"
             >
